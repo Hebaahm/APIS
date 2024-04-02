@@ -1,0 +1,508 @@
+{
+  "Products": [
+    {
+      "CtegoryName": "Bakery",
+      "SubCatgoryName": "Fresh Bakery",
+      "Name": "Orange Cake",
+      "Weight": "600gm",
+      "Price": "150:00 EGP",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "CtegoryName": "Milk",
+      "SubCatgoryName": "Milk Alternatives",
+      "Name": "Juhayna Coconut Milk ",
+      "Weight": "1L",
+      "Price": "75.00 EGP",
+      "Price after Discount": "70.00 EGP"
+    },
+    {
+      "CtegoryName": "Fruits & Vegetables",
+      "SubCatgoryName": "Fruits",
+      "Name": "Apples-Green",
+      "Weight": "6 pcs",
+      "Price": "110.00 EGP",
+      "Price after Discount": "100.00 EGP",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "CtegoryName": "Ice Cream",
+      "SubCatgoryName": "Sticks",
+      "Name": "Oreo Stick",
+      "Weight": "100 ml",
+      "Price": "20.00 EGP",
+      "Price after Discount": 0
+    },
+    {
+      "CtegoryName": "Milk",
+      "SubCatgoryName": "Milk Alternatives",
+      "Name": "Juhayna Coconut Milk ",
+      "Weight": "3L",
+      "Price": "100.00 EGP",
+      "Price after Discount": 0,
+      "id": 5
+    },
+    {
+      "CtegoryName": "Ice Cream",
+      "SubCatgoryName": "Sticks",
+      "Name": "Oreo Stick",
+      "Weight": "100 ml",
+      "Price": "15.00 EGP",
+      "Price after Discount": 0,
+      "id": 6
+    },
+    {
+      "CtegoryName": "Ice Cream",
+      "SubCatgoryName": "Sticks",
+      "Name": "Oreo Stick",
+      "Weight": "100 ml",
+      "Price": "15.00 EGP",
+      "Price after Discount": 0,
+      "id": 7
+    },
+    {
+      "CtegoryName": "Ice Cream",
+      "SubCatgoryName": "Sticks",
+      "Name": "Oreo Stick",
+      "Weight": "100 ml",
+      "Price": "15.00 EGP",
+      "Price after Discount": 0,
+      "id": 8
+    },
+    [
+      {
+        "id": 8,
+        "CtegoryName": "Milk",
+        "Price": "80.00 EGP",
+        "Price after Discount": "70.00 EGP"
+      },
+      {
+        "id": 9,
+        "CtegoryName": "Egg",
+        "Price": "100.00 EGP",
+        "Price after Discount": "95.00 EGP"
+      }
+    ],
+    [
+      {
+        "id": 8,
+        "CtegoryName": "Milk",
+        "Price": "80.00 EGP",
+        "Price after Discount": "70.00 EGP"
+      },
+      {
+        "id": 9,
+        "CtegoryName": "Egg",
+        "Price": "100.00 EGP",
+        "Price after Discount": "95.00 EGP"
+      }
+    ],
+    [
+      {
+        "id": 8,
+        "CtegoryName": "Milk",
+        "Price": "80.00 EGP",
+        "Price after Discount": "70.00 EGP"
+      },
+      {
+        "id": 9,
+        "CtegoryName": "Egg",
+        "Price": "100.00 EGP",
+        "Price after Discount": "95.00 EGP"
+      }
+    ],
+    [
+      {
+        "id": 8,
+        "CtegoryName": "Milk",
+        "Price": "80.00 EGP",
+        "Price after Discount": "70.00 EGP"
+      },
+      {
+        "id": 9,
+        "CtegoryName": "Egg",
+        "Price": "100.00 EGP",
+        "Price after Discount": "95.00 EGP"
+      }
+    ],
+    [
+      {
+        "id": 8,
+        "CtegoryName": "Milk",
+        "Price": "80.00 EGP",
+        "Price after Discount": "70.00 EGP"
+      },
+      {
+        "id": 9,
+        "CtegoryName": "Egg",
+        "Price": "100.00 EGP",
+        "Price after Discount": "95.00 EGP"
+      }
+    ],
+    [
+      {
+        "id": 8,
+        "CtegoryName": "Milk",
+        "Price": "80.00 EGP",
+        "Price after Discount": "70.00 EGP"
+      },
+      {
+        "id": 9,
+        "CtegoryName": "Egg",
+        "Price": "100.00 EGP",
+        "Price after Discount": "95.00 EGP"
+      }
+    ],
+    [
+      {
+        "id": 8,
+        "CtegoryName": "Milk",
+        "Price": "80.00 EGP",
+        "Price after Discount": "70.00 EGP"
+      },
+      {
+        "id": 9,
+        "CtegoryName": "Egg",
+        "Price": "100.00 EGP",
+        "Price after Discount": "95.00 EGP"
+      }
+    ],
+    [
+      {
+        "id": 8,
+        "CtegoryName": "Milk",
+        "Price": "80.00 EGP",
+        "Price after Discount": "70.00 EGP"
+      },
+      {
+        "id": 9,
+        "CtegoryName": "Egg",
+        "Price": "100.00 EGP",
+        "Price after Discount": "95.00 EGP"
+      }
+    ],
+    [
+      {
+        "id": 8,
+        "CtegoryName": "Milk",
+        "Price": "80.00 EGP",
+        "Price after Discount": "70.00 EGP"
+      },
+      {
+        "id": 9,
+        "CtegoryName": "Egg",
+        "Price": "100.00 EGP",
+        "Price after Discount": "95.00 EGP"
+      }
+    ],
+    [
+      {
+        "id": 8,
+        "CtegoryName": "Milk",
+        "Price": "80.00 EGP",
+        "Price after Discount": "70.00 EGP"
+      },
+      {
+        "id": 9,
+        "CtegoryName": "Egg",
+        "Price": "100.00 EGP",
+        "Price after Discount": "95.00 EGP"
+      }
+    ],
+    [
+      {
+        "id": 8,
+        "CtegoryName": "Milk",
+        "Price": "80.00 EGP",
+        "Price after Discount": "70.00 EGP"
+      },
+      {
+        "id": 9,
+        "CtegoryName": "Egg",
+        "Price": "100.00 EGP",
+        "Price after Discount": "95.00 EGP"
+      }
+    ],
+    [
+      {
+        "id": 8,
+        "CtegoryName": "Milk",
+        "Price": "80.00 EGP",
+        "Price after Discount": "70.00 EGP"
+      },
+      {
+        "id": 9,
+        "CtegoryName": "Egg",
+        "Price": "100.00 EGP",
+        "Price after Discount": "95.00 EGP"
+      }
+    ],
+    [
+      {
+        "id": 8,
+        "CtegoryName": "Milk",
+        "Price": "80.00 EGP",
+        "Price after Discount": "70.00 EGP"
+      },
+      {
+        "id": 9,
+        "CtegoryName": "Egg",
+        "Price": "100.00 EGP",
+        "Price after Discount": "95.00 EGP"
+      }
+    ],
+    [
+      {
+        "id": 8,
+        "CtegoryName": "Milk",
+        "Price": "80.00 EGP",
+        "Price after Discount": "70.00 EGP"
+      },
+      {
+        "id": 9,
+        "CtegoryName": "Egg",
+        "Price": "100.00 EGP",
+        "Price after Discount": "95.00 EGP"
+      }
+    ],
+    [
+      {
+        "id": 8,
+        "CtegoryName": "Milk",
+        "Price": "80.00 EGP",
+        "Price after Discount": "70.00 EGP"
+      },
+      {
+        "id": 9,
+        "CtegoryName": "Egg",
+        "Price": "100.00 EGP",
+        "Price after Discount": "95.00 EGP"
+      }
+    ],
+    [
+      {
+        "id": 8,
+        "CtegoryName": "Milk",
+        "Price": "80.00 EGP",
+        "Price after Discount": "70.00 EGP"
+      },
+      {
+        "id": 9,
+        "CtegoryName": "Egg",
+        "Price": "100.00 EGP",
+        "Price after Discount": "95.00 EGP"
+      }
+    ]
+  ],
+  "Cart": [
+    {
+      "id": 1,
+      "Name": "Nestle Pure Life Water 6 L",
+      "Price": "17.00 EGP",
+      "Counter": 0,
+      "Stocks": 50,
+      "Capping limit": 2,
+      "Total Price": "Total Price+=Price"
+    },
+    {
+      "Name": "Gouda Cheese 125g",
+      "Price": "62.00 EGP",
+      "Counter": 0,
+      "Stocks": 40,
+      "Capping limit": 5,
+      "Total Price": "Total Price+=Price",
+      "id": 2
+    },
+    {
+      "Name": "Cerelac 4 Fruits 90 gm",
+      "Price": "28.75 EGP",
+      "Counter": 0,
+      "Stocks": 50,
+      "Capping limit": 7,
+      "Total Price": "Total Price+=Price",
+      "id": 3
+    },
+    {
+      "Name": "Coca Cola Zero can 330 ml",
+      "Price": "9.75 EGP",
+      "Counter": 0,
+      "Stocks": 100,
+      "Capping limit": 11,
+      "Total Price": "Total Price+=Price",
+      "id": 4
+    },
+    {
+      "Name": "Kiri Cheese",
+      "Price": "40.00 EGP",
+      "Counter": 0,
+      "Stocks": 30,
+      "Capping limit": 5,
+      "Total Price": "Total Price+=Price",
+      "id": 5
+    },
+    {
+      "Name": "Kiri Cheese",
+      "Price": "40.00 EGP",
+      "Counter": 0,
+      "Stocks": 30,
+      "Capping limit": 3,
+      "Total Price": "Total Price+=Price",
+      "id": 6
+    },
+    {
+      "Name": "Kiri Cheese",
+      "Price": "40.00 EGP",
+      "Counter": 0,
+      "Stocks": 30,
+      "Capping limit": 3,
+      "Total Price": "Total Price+=Price",
+      "id": 7
+    },
+    
+    {
+      "Name": "Gooda Cheese",
+      "Price": "70.00 EGP",
+      "id": 8
+    },
+    [
+      {
+        "Name": "Gooda Cheese",
+        "Price": "70.00 EGP",
+        "id": 8
+      }
+    ],
+    [
+      {
+        "Name": "Gooda Cheese",
+        "Price": "70.00 EGP",
+        "id": 9
+    }
+    ]
+    
+   
+  ],
+  "Checkout": [
+    {
+      "id": 1,
+      "Name": "Water 18.9 L",
+      "Payment method": "COD",
+      "Total": "75.00 EGP",
+      "Promo code": "",
+      "Applied Promocode": false,
+      "Delivery Fees": 0,
+      "Grand total": 0
+    },
+    {
+      "id": 2,
+      "Name": "Mini Roll Hot Dog 9 pcs",
+      "Payment method": "COD",
+      "Total": "143.75 EGP",
+      "Promo code": "",
+      "Applied Promocode": false,
+      "Delivery Fees": 0,
+      "Grand total": 0
+    },
+    {
+      "id": 3,
+      "Name": "Arial Gel Clean 2.5 kg",
+      "Payment method": "COD",
+      "Total": "153.25 EGP",
+      "Promo code": "",
+      "Applied Promocode": false,
+      "Delivery Fees": 0,
+      "Grand total": 0
+    },
+    {
+      "id": 4,
+      "Name": "Afia Corn Oil 2.2 L",
+      "Payment method": "COD",
+      "Total": "173.00 EGP",
+      "Promo code": "",
+      "Applied Promocode": false,
+      "Delivery Fees": 0,
+      "Grand total": 0
+    },
+    {
+      "Name": "Green Apple 10 pcs",
+      "Payment method": "COD",
+      "Total": "150.75 EGP",
+      "Promo code": "",
+      "Applied Promocode": false,
+      "Delivery Fees": 0,
+      "Grand total": 0,
+      "id": 5
+    },
+    {
+      "Name": "Egg 30 pcs",
+      "Payment method": "COD",
+      "Total": "75.00 EGP",
+      "Promo code": "",
+      "Applied Promocode": false,
+      "Delivery Fees": 0,
+      "Grand total": 0,
+      "id": 6
+    },
+    {
+      "Name": "Egg 30 pcs",
+      "Payment method": "COD",
+      "Total": "75.00 EGP",
+      "Promo code": "",
+      "Applied Promocode": false,
+      "Delivery Fees": 0,
+      "Grand total": 0,
+      "id": 7
+    },
+    {
+      "Name": "Oil 4 L",
+      "Payment method": "COD",
+      "Total": "200.00 EGP",
+      "Promo code": "",
+      "Applied Promocode": false,
+      "Delivery Fees": 0,
+      "Grand total": 0,
+      "id": 8
+    },
+    {
+      "Name": "Oil 4 L",
+      "Payment method": "COD",
+      "Total": "200.00 EGP",
+      "Promo code": "",
+      "Applied Promocode": false,
+      "Delivery Fees": 0,
+      "Grand total": 0,
+      "id": 9
+    },
+    {
+      "Name": "Oil 4 L",
+      "Payment method": "COD",
+      "Total": "200.00 EGP",
+      "Promo code": "",
+      "Applied Promocode": false,
+      "Delivery Fees": 0,
+      "Grand total": 0,
+      "id": 10
+    },
+    {
+      "Name": "Oil 4 L",
+      "Payment method": "COD",
+      "Total": "200.00 EGP",
+      "Promo code": "",
+      "Applied Promocode": false,
+      "Delivery Fees": 0,
+      "Grand total": 0,
+      "id": 11
+    },
+    {
+      "Name": "Oil 4 L",
+      "Payment method": "COD",
+      "Total": "200.00 EGP",
+      "Promo code": "",
+      "Applied Promocode": false,
+      "Delivery Fees": 0,
+      "Grand total": 0,
+      "id": 12
+    }
+  ]
+}

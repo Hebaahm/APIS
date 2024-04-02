@@ -1,0 +1,470 @@
+{
+	"info": {
+		"_postman_id": "75ded9f7-30fe-4ee7-9461-9d103f57ab47",
+		"name": "Auth users",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25253703",
+		"_collection_link": "https://www.postman.com/docking-module-cosmologist-10894912/workspace/my-workspace/collection/25253703-75ded9f7-30fe-4ee7-9461-9d103f57ab47?action=share&source=collection_link&creator=25253703"
+	},
+	"item": [
+		{
+			"name": "users",
+			"item": [
+				{
+					"name": "signup",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsondata = pm.response.json();\r",
+									"var token = jsondata.accessToken\r",
+									"pm.environment.set(\"token\", token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"Heba20245@mail.com\",\r\n  \"password\": \"1234567\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Auth_URL}}/users",
+							"host": [
+								"{{Auth_URL}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "courses",
+			"item": [
+				{
+					"name": "create new course",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jasondata = pm.response.json()\r",
+									"var courseID = jasondata.id\r",
+									"pm.environment.set(\"courseID\", courseID);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n      \r\n      \"Name\": \"PHP II course\",\r\n      \"Description\": \"this PHP course from zero to hero \"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Auth_URL}}/courses",
+							"host": [
+								"{{Auth_URL}}"
+							],
+							"path": [
+								"courses"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Get new course",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Auth_URL}}/courses/{{courseID}}",
+					"host": [
+						"{{Auth_URL}}"
+					],
+					"path": [
+						"courses",
+						"{{courseID}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update course",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"Name\": \"PHP III course\",\r\n      \"Description\": \"this PHP course from zero to hero \"\r\n     \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Auth_URL}}/courses/{{courseID}}",
+					"host": [
+						"{{Auth_URL}}"
+					],
+					"path": [
+						"courses",
+						"{{courseID}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update course partially",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \r\n      \"Description\": \"this PHP III course from zero to hero \"\r\n     \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Auth_URL}}/courses/{{courseID}}",
+					"host": [
+						"{{Auth_URL}}"
+					],
+					"path": [
+						"courses",
+						"{{courseID}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete course",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{Auth_URL}}/courses/{{courseID}}",
+					"host": [
+						"{{Auth_URL}}"
+					],
+					"path": [
+						"courses",
+						"{{courseID}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get deleted course",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Auth_URL}}/courses/{{courseID}}",
+					"host": [
+						"{{Auth_URL}}"
+					],
+					"path": [
+						"courses",
+						"{{courseID}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"var jsondata = pm.response.json();\r",
+							"var token = jsondata.accessToken\r",
+							"pm.environment.set(\"token\", token);\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"Heba2024@mail.com\",\r\n  \"password\": \"1234567\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Auth_URL}}/users",
+					"host": [
+						"{{Auth_URL}}"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create secured course",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "postman-Token",
+						"value": "<calculated when request is sent>",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZhZHkyMDIzNjlAbWFpbC5jb20iLCJpYXQiOjE2OTg2Njg4MDgsImV4cCI6MTY5ODY3MjQwOCwic3ViIjoiOSJ9.cJqy38x16xIVg6s5KZM9BJGCalyx_ppYrmCWGxJkBlY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"Name\": \"Nodejs II course\",\r\n      \"Description\": \"this Nodejs course from zero to hero \"\r\n    \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Auth_URL}}/660/courses",
+					"host": [
+						"{{Auth_URL}}"
+					],
+					"path": [
+						"660",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get secured course",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Postman-Token",
+						"value": "<calculated when request is sent>",
+						"type": "text"
+					},
+					{
+						"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZhZHkyMDIzNjlAbWFpbC5jb20iLCJpYXQiOjE2OTg2Njg4MDgsImV4cCI6MTY5ODY3MjQwOCwic3ViIjoiOSJ9.cJqy38x16xIVg6s5KZM9BJGCalyx_ppYrmCWGxJkBlY",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{Auth_URL}}/660/courses/16",
+					"host": [
+						"{{Auth_URL}}"
+					],
+					"path": [
+						"660",
+						"courses",
+						"16"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update secured course",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\": \"Cypress III  course\",\r\n    \"Description\": \"this Cypress III course from zero to hero \",\r\n    \"id\": 13\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Auth_URL}}/660/courses/16",
+					"host": [
+						"{{Auth_URL}}"
+					],
+					"path": [
+						"660",
+						"courses",
+						"16"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update secured course Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{Auth_URL}}/660/courses/16",
+					"host": [
+						"{{Auth_URL}}"
+					],
+					"path": [
+						"660",
+						"courses",
+						"16"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get deleted secured course",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Auth_URL}}/660/courses/16",
+					"host": [
+						"{{Auth_URL}}"
+					],
+					"path": [
+						"660",
+						"courses",
+						"16"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

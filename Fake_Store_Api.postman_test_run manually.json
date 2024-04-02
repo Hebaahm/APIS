@@ -1,0 +1,670 @@
+{
+	"id": "b70a646d-c256-408c-ad29-2d0c6e395bd1",
+	"name": "Fake_Store_Api",
+	"timestamp": "2023-11-02T10:49:55.839Z",
+	"collection_id": "25253703-c65dc22c-1bc0-4ac9-a5ec-2998a0ec7763",
+	"folder_id": 0,
+	"environment_id": "25253703-5f90518a-4ef7-41d2-b42a-7ef304387f82",
+	"totalPass": 21,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-11-02T10:49:48.427Z",
+	"totalFail": 3,
+	"results": [
+		{
+			"id": "8325f53a-581f-40eb-aeef-7529a8ddfb98",
+			"name": "signup user",
+			"url": " https://fakestoreapi.com/users",
+			"time": 341,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				341
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2ec6310b-d77a-4fb3-9c94-0a67cbfe792c",
+			"name": "user login",
+			"url": " https://fakestoreapi.com/auth/login",
+			"time": 326,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				326
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e816424a-e74f-44b3-8dba-74b7757606ab",
+			"name": "Get all products",
+			"url": " https://fakestoreapi.com/products",
+			"time": 164,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"check fitching all products": true,
+				"Response time is less than 200ms": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"check fitching all products": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				164
+			],
+			"allTests": [
+				{
+					"check fitching all products": true,
+					"Response time is less than 200ms": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "a4351328-5604-46c3-af54-5b9fd596d695",
+			"name": "Get a single product",
+			"url": " https://fakestoreapi.com/products/1",
+			"time": 169,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"the response include count ": true,
+				"Response time is less than 300ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"the response include count ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 300ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				169
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"the response include count ": true,
+					"Response time is less than 300ms": true
+				}
+			]
+		},
+		{
+			"id": "b8aae2bc-5fac-4bb0-a6d0-cbc2824d3609",
+			"name": "create new product",
+			"url": " https://fakestoreapi.com/products",
+			"time": 165,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 201": false,
+				"Status code name has string": false,
+				"check the response include price": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code name has string": {
+					"pass": 0,
+					"fail": 1
+				},
+				"check the response include price": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				165
+			],
+			"allTests": [
+				{
+					"Status code is 201": false,
+					"Status code name has string": false,
+					"check the response include price": true
+				}
+			]
+		},
+		{
+			"id": "c803dde6-985b-4637-a6bf-27acdf2ce743",
+			"name": "update product",
+			"url": " https://fakestoreapi.com/products/7",
+			"time": 163,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"check the response include price ": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check the response include price ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				163
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"check the response include price ": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "b6ea9940-79b5-4f20-9744-7f0c4397082c",
+			"name": "Delete product",
+			"url": " https://fakestoreapi.com/products/8",
+			"time": 332,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 400ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 400ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				332
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 400ms": true
+				}
+			]
+		},
+		{
+			"id": "72638907-9d7b-4808-939a-66e25a42e489",
+			"name": "product limit and sort",
+			"url": " https://fakestoreapi.com/products?limit=3&sort=desc",
+			"time": 160,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 400ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 400ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				160
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 400ms": true
+				}
+			]
+		},
+		{
+			"id": "f9991ad8-b125-449c-baf5-9c28015c4ca0",
+			"name": "Git a limit of products",
+			"url": " https://fakestoreapi.com/products?limit=5",
+			"time": 167,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				167
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5baeeaec-29b4-45d2-ba67-590e336bd093",
+			"name": "Get all categories",
+			"url": " https://fakestoreapi.com/products/categories",
+			"time": 160,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				160
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b6778b47-b5fb-46d5-aab3-fe99755b0db3",
+			"name": "Get specific category",
+			"url": " https://fakestoreapi.com/products/category/jewelery",
+			"time": 330,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				330
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ef20a4cd-6779-4b0a-9d8d-877f4dc95453",
+			"name": "sort specific category",
+			"url": " https://fakestoreapi.com/products/category/jewelery?sort=desc",
+			"time": 326,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				326
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6504395f-8361-458f-9aab-09ba2cb4133d",
+			"name": "user login",
+			"url": " https://fakestoreapi.com/auth/login",
+			"time": 336,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				336
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6a81b8cc-43d7-4bf4-9730-31f9d6619f1a",
+			"name": "Get all carts",
+			"url": " https://fakestoreapi.com/carts",
+			"time": 341,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				341
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "fbc9419a-bd92-4d2d-9040-df16899506c6",
+			"name": "limit cart",
+			"url": " https://fakestoreapi.com/carts?limit=4",
+			"time": 329,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				329
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "05cc433a-4334-4091-99ee-e98af0e38193",
+			"name": "Get cart using sort",
+			"url": " https://fakestoreapi.com/carts?sort=asc",
+			"time": 346,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				346
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "193429c0-7c4a-441e-ac09-f5f6682aed88",
+			"name": "Get cart by start date & end date",
+			"url": " https://fakestoreapi.com/carts?startdate=2019-12-10&enddate=2020-10-10",
+			"time": 342,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				342
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "eef73444-471c-4fb7-8194-5fa5c9394993",
+			"name": "Get cart for specific user",
+			"url": " https://fakestoreapi.com/carts/user/2",
+			"time": 339,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				339
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "10bc6264-9597-49c6-b12d-1020bcce8e88",
+			"name": "create new cart",
+			"url": " https://fakestoreapi.com/carts",
+			"time": 164,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 201": false
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				164
+			],
+			"allTests": [
+				{
+					"Status code is 201": false
+				}
+			]
+		},
+		{
+			"id": "880a092f-44d8-4988-887e-8a8331111b7b",
+			"name": "update cart by id",
+			"url": " https://fakestoreapi.com/carts/7",
+			"time": 156,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				156
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "152428cf-691c-45ed-84c8-436f643b58a4",
+			"name": "Delete cart",
+			"url": " https://fakestoreapi.com/carts/6",
+			"time": 328,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				328
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 5484,
+	"collection": {
+		"requests": [
+			{
+				"id": "8325f53a-581f-40eb-aeef-7529a8ddfb98",
+				"method": "POST"
+			},
+			{
+				"id": "2ec6310b-d77a-4fb3-9c94-0a67cbfe792c",
+				"method": "POST"
+			},
+			{
+				"id": "e816424a-e74f-44b3-8dba-74b7757606ab",
+				"method": "GET"
+			},
+			{
+				"id": "a4351328-5604-46c3-af54-5b9fd596d695",
+				"method": "GET"
+			},
+			{
+				"id": "b8aae2bc-5fac-4bb0-a6d0-cbc2824d3609",
+				"method": "POST"
+			},
+			{
+				"id": "c803dde6-985b-4637-a6bf-27acdf2ce743",
+				"method": "PUT"
+			},
+			{
+				"id": "b6ea9940-79b5-4f20-9744-7f0c4397082c",
+				"method": "DELETE"
+			},
+			{
+				"id": "72638907-9d7b-4808-939a-66e25a42e489",
+				"method": "GET"
+			},
+			{
+				"id": "f9991ad8-b125-449c-baf5-9c28015c4ca0",
+				"method": "GET"
+			},
+			{
+				"id": "5baeeaec-29b4-45d2-ba67-590e336bd093",
+				"method": "GET"
+			},
+			{
+				"id": "b6778b47-b5fb-46d5-aab3-fe99755b0db3",
+				"method": "GET"
+			},
+			{
+				"id": "ef20a4cd-6779-4b0a-9d8d-877f4dc95453",
+				"method": "GET"
+			},
+			{
+				"id": "6504395f-8361-458f-9aab-09ba2cb4133d",
+				"method": "POST"
+			},
+			{
+				"id": "6a81b8cc-43d7-4bf4-9730-31f9d6619f1a",
+				"method": "GET"
+			},
+			{
+				"id": "fbc9419a-bd92-4d2d-9040-df16899506c6",
+				"method": "GET"
+			},
+			{
+				"id": "05cc433a-4334-4091-99ee-e98af0e38193",
+				"method": "GET"
+			},
+			{
+				"id": "193429c0-7c4a-441e-ac09-f5f6682aed88",
+				"method": "GET"
+			},
+			{
+				"id": "eef73444-471c-4fb7-8194-5fa5c9394993",
+				"method": "GET"
+			},
+			{
+				"id": "10bc6264-9597-49c6-b12d-1020bcce8e88",
+				"method": "POST"
+			},
+			{
+				"id": "880a092f-44d8-4988-887e-8a8331111b7b",
+				"method": "PUT"
+			},
+			{
+				"id": "152428cf-691c-45ed-84c8-436f643b58a4",
+				"method": "DELETE"
+			}
+		]
+	}
+}

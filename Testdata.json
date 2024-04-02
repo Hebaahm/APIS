@@ -1,0 +1,17 @@
+[
+   {
+      "endpoint":"register/qa",
+      "email":"heba124@g.in",
+      "password":45789
+   },
+   {
+      "endpoint":"register/reg",
+      "email":"heba12454@p.in",
+      "password":987654
+   },
+   {
+      "endpoint":"register/dev",
+      "email":"Raghov12454@p.in",
+      "password":98521
+   }
+]

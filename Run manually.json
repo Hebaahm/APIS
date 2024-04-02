@@ -1,0 +1,81 @@
+{
+	"id": "a1746a86-aee6-4346-ae9a-1ce85bd35edd",
+	"name": "REQRES api",
+	"timestamp": "2023-11-08T09:08:31.715Z",
+	"collection_id": "25253703-95cd259f-f2cd-4eee-8c1f-1754ee264460",
+	"folder_id": 0,
+	"environment_id": "25253703-5c407247-cb48-4f4a-a599-94c0c801b3d0",
+	"totalPass": 8,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-11-08T09:08:30.072Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "23f73f9a-3f30-4515-bbb8-aca9e8b79132",
+			"name": "SignUp with data driven",
+			"url": "https://reqres.in/api/register/fds",
+			"time": 118,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 8,
+					"fail": 0
+				}
+			},
+			"times": [
+				126,
+				105,
+				115,
+				138,
+				111,
+				117,
+				370,
+				118
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		}
+	],
+	"count": 8,
+	"totalTime": 1200,
+	"collection": {
+		"requests": [
+			{
+				"id": "23f73f9a-3f30-4515-bbb8-aca9e8b79132",
+				"method": "POST"
+			}
+		]
+	}
+}

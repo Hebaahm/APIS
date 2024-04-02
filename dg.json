@@ -1,0 +1,56 @@
+{
+  "Courses": [
+    {
+      "id": 1,
+      "Name": "Api Course",
+      "Description ": "this is an Api Course from zero to hero"
+    },
+    {
+      "id": 2,
+      "Name": "Node.js course II",
+      "Description ": "this is Node.js course II Course from zero to hero"
+    },
+    {
+      "Name": "JAVA course",
+      "Description": "this  JAVA course from zero to Hero",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "Name": "Java course",
+      "Description ": "this is Java  course  from zero to hero"
+    },
+    {
+      "Name": "Cypress Advanced course II",
+      "price": "800EGP",
+      "id": 6
+    },
+    {
+      "Name": "JAVA course",
+      "Description": "this  JAVA course from zero to Hero",
+      "id": 7
+    },
+    {
+      "Name": "JAVA course",
+      "Description": "this  JAVA course from zero to Hero",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "email": "omar.test@gmail.com",
+      "password": "$2a$10$Z0zUiTJ.XOIf/pVKyBciEe9wMZOYlk1PsLyPXHXkVymjVc1CqF3Du",
+      "id": 1
+    },
+    {
+      "email": "omar.testII@gmail.com",
+      "password": "$2a$10$FcPqNhBJKQR43PupUYIIruoP6kGHjsG0ej6niqYKqXDrBLjwCArwq",
+      "id": 2
+    },
+    {
+      "email": "omar.testIII@gmail.com",
+      "password": "$2a$10$xctQl/GHes1f551SAUdlEOQsyGJl8zZJRpqP3PTp.ewdP4k1y8zNe",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "Name": "API course",
+      "Description": "this API course from zero to hero "
+    },
+    {
+      "id": 2,
+      "Name": "JAVA  course",
+      "Description": "thisJAVA course from zero to hero "
+    },
+    {
+      "id": 3,
+      "Name": "PHP course",
+      "Description": "this PHP course from zero to hero "
+    },
+    {
+      "id": 4,
+      "Name": "Python course",
+      "Description": "this Python course from zero to hero "
+    },
+    {
+      "Name": "PHP II course",
+      "Description": "this PHP course from zero to hero ",
+      "id": 5
+    },
+    {
+      "Name": "JAVA II course",
+      "Description": "this Java course from zero to hero ",
+      "id": 6
+    },
+    {
+      "Name": "JAVA II course",
+      "Description": "this Java course from zero to hero ",
+      "id": 7
+    },
+    {
+      "Name": "JAVA II course",
+      "Description": "this Java course from zero to hero ",
+      "id": 8
+    },
+    {
+      "Name": "JAVA II course",
+      "Description": "this Java course from zero to hero ",
+      "id": 9
+    },
+    {
+      "Name": "JAVA II course",
+      "Description": "this Java course from zero to hero ",
+      "id": 10
+    },
+    {
+      "Name": "JAVA II course",
+      "Description": "this Java course from zero to hero ",
+      "id": 11
+    },
+    {
+      "Name": "Cypress  course",
+      "Description": "this Cypress course from zero to hero ",
+      "id": 12
+    },
+    {
+      "Name": "Cypress  course",
+      "Description": "this Cypress course from zero to hero ",
+      "id": 13
+    },
+    {
+      "Name": "Nodejs  course",
+      "Description": "this Nodejs course from zero to hero ",
+      "id": 14
+    },
+    {
+      "Name": "Nodejs  course",
+      "Description": "this Nodejs course from zero to hero ",
+      "id": 15
+    },
+    {
+      "Name": "PHP II course",
+      "Description": "this PHP course from zero to hero ",
+      "id": 16
+    }
+  ],
+  "users": [
+    {
+      "email": "Heba20@mail.com",
+      "password": "$2a$10$9tomMFh3HD5akVoEpU0g2emO7BJq7aWCk3fAhd2LrwmeE5jEu8ldG",
+      "id": 1
+    },
+    {
+      "email": "Heba2023@mail.com",
+      "password": "$2a$10$9We/on8DfLTLX4nyhYwTpu/e.vmE4D7FyvjoCc9MF/.Im/2ujGje2",
+      "id": 2
+    },
+    {
+      "email": "Ahmed2023@mail.com",
+      "password": "$2a$10$rkAPDwB.TB2y87dt0fiW/Oso9m46oNTjyVVa./NgqbT3yjChMp3au",
+      "id": 3
+    },
+    {
+      "email": "Ahmed20236@mail.com",
+      "password": "$2a$10$RrSKsKdEVBRNv.MXoA9YU.TLcZjIzTNxJZw.RmxmGyA4/ookVmI46",
+      "id": 4
+    },
+    {
+      "email": "Ahmed202369@mail.com",
+      "password": "$2a$10$Ga9hDgEAcM33UgpHKAnCeuwjRceYD994rG7VowzPOhHe2If..YMcC",
+      "id": 5
+    },
+    {
+      "email": "gamal202369@mail.com",
+      "password": "$2a$10$JRQcAWwULvymCpHvUNzs2uc7iFE9mOtfiaFC.54a3tanVtedEwm4i",
+      "id": 6
+    },
+    {
+      "email": "dina202369@mail.com",
+      "password": "$2a$10$WeeKqtCoHcApmv97HZ2NvuLDCgs6iU7BYkxGLxVu6iR2pCgMNR7W6",
+      "id": 7
+    },
+    {
+      "email": "amal202369@mail.com",
+      "password": "$2a$10$LNvkqpsXdlN.A8MniFf9quhAs8F828GlwkaeQXerWK54ZE1hG22r.",
+      "id": 8
+    },
+    {
+      "email": "fady202369@mail.com",
+      "password": "$2a$10$doBXHgEtZylB0gGq.HMEEu3ymKLbX0N6jg6gdUe7fq/Fakoq1XOVC",
+      "id": 9
+    },
+    {
+      "email": "Heba2024@mail.com",
+      "password": "$2a$10$bSsMHOu/vgUtxkxCKf3FTeOd1rMBxX.tEzG4l.FtrJVmjvhcc967K",
+      "id": 10
+    },
+    {
+      "email": "Heba20245@mail.com",
+      "password": "$2a$10$q7lx/mi.I9Stgyv9zoVL1e/jXqFJMODj/iwgU3aI6aWzTsR3DYzdy",
+      "id": 11
+    }
+  ]
+}
